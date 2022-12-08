@@ -1,0 +1,593 @@
+- COMENTARIOS
+
+ // Palavra ou palavras
+
+...
+
+/*
+
+Palavra ou palavras
+
+*/
+
+...
+
+...
+
+...
+
+- BIBLIOTECAS BASICAS
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+#include <math.h>
+
+...
+
+...
+
+...
+
+- STRUCTS
+
+struct NomeDaEstrutura-I
+
+     {
+
+          TIPODAVARIAVEL VARIAVEL-I;
+
+          TIPODAVARIAVEL VARIAVEL-II;
+
+          TIPODAVARIAVEL VARIAVEL-N;
+
+     };
+
+...
+
+struct NomeDaEstrutura-II
+
+     {
+
+          TIPODAVARIAVEL VARIAVEL-I;
+
+          TIPODAVARIAVEL VARIAVEL-II;
+
+          TIPODAVARIAVEL VARIAVEL-N;
+
+     };
+
+...
+
+struct NomeDaEstrutura-N
+
+     {
+
+          TIPODAVARIAVEL VARIAVEL-I;
+
+          TIPODAVARIAVEL VARIAVEL-II;
+
+          TIPODAVARIAVEL VARIAVEL-N;
+
+     };
+
+...
+
+...
+
+...
+
+- ENTRADA E SAIDA DE DADOS
+
+...
+
+- PULAR LINHAS
+
+\n
+
+...
+
+I - ENTRADA DE STRING
+
+char VARIAVEL[];
+
+ou
+
+char VARIAVEL[TAMANHO DESEJADO];
+
+cin >> VARIAVEL;
+
+...
+
+II - ENTRADA DE TEXTO
+
+const int VARIAVELTAMANHODODOTEXTO 1000;
+
+char TEXTO [VARIAVELTAMANHODODOTEXTO];
+
+cin.getline (TEXTO, VARIAVELTAMANHODODOTEXTO);
+
+...
+
+III - SAIDA DE STRING OU TEXTO
+
+cout << "PALAVRA ou TEXTO\n";
+
+IV - SAIDA DE VARIAVEL
+
+cout << VARIAVEL;
+
+...
+
+V - SAIDA DE PALAVRA OU TEXTO COM VARIAVEIS
+
+cout << "PALAVRA ou TEXTO " << VARIAVEL << " PALAVRA ou TEXTO " << VARIAVEL << "\n\n";
+
+...
+
+...
+
+...
+
+- ESTRUTURAS DE CONTROLE
+
+break; PARE AQUI
+
+continue; VA AH OPCAO SEGUINTE
+
+...
+
+I - DESVIO GOTO - SALTOS
+
+... O goto funciona dentro da mesma funcao e dentro do mesmo metodo, portanto dar saltos entre funcoes, metodos e classes usando o goto eh impossivel... O goto pode direcionar ah um ponto anterior do codigo ou ah um ponto posterior do codigo...
+
+goto NOMEESCOLHIDO;
+
+ESTRUTURAS
+
+NOMEESCOLHIDO:
+
+ou
+
+NOMEESCOLHIDO:
+
+ESTRUTURAS
+
+goto NOMEESCOLHIDO;
+
+...
+
+I - SELECOES IF E IF/ELSE
+
+if (SE ISSO FOR VERDADE, ENTAO FACA O SEGUINTE)
+
+     ESTRUTURA COM UMA LINHA;
+
+{
+
+     ESTRUTURA COM MAIS QUE UMA LINHA;
+
+}
+
+ELSE (SE A SITUACAO ANTERIOR FOR FALSA, ENTAO FACA O SEGUINTE)
+
+     ESTRUTURA COM UMA LINHA;
+
+{
+
+     ESTRUTURA COM MAIS QUE UMA LINHA;
+
+}
+
+...
+
+II - SELECOES SWITCH
+
+switch (SELECIONE O CASO IGUAL AH ESSA VARIAVEL)
+
+{
+
+     case '1':
+
+          ACAO;
+
+          break;
+
+     case '2':
+
+          ACAO;
+
+          break;
+
+     case 'N':
+
+          ACAO;
+
+          break;
+
+}
+
+...
+
+...
+
+...
+
+- EXTRUTURAS DE REPETICAO - LACOS
+
+...
+
+ - REPETICAO DO/WHILE
+
+do - FACA ISSO
+
+     ESTRUTURA COM UMA LINHA;
+
+{
+
+     ESTRUTURA COM MAIS QUE UMA LINHA;
+
+}
+
+while (ENQUANTO ISSO FOR VERDADE);
+
+...
+
+II - REPETICAO WHILE
+
+while (FACA O SEGUINTE ENQUANTO ISSO FOR VERDADE);
+
+     ESTRUTURA COM UMA LINHA;
+
+{
+
+     ESTRUTURA COM MAIS QUE UMA LINHA;
+
+}
+
+...
+
+III - REPETICAO FOR
+
+for (DISSO; AH ISSO; DECREMENTO ou INCREMENTO);
+
+     ESTRUTURA COM UMA LINHA;
+
+{
+
+     ESTRUTURA COM MAIS QUE UMA LINHA;
+
+}
+
+...
+
+...
+
+...
+
+- VETORES
+
+I - VETOR COM UMA DIMENSAO
+
+int VARIAVEL;
+
+...
+
+II - VETOR COM DUAS DIMENSOES
+
+int VARIAVEL [TAMANHO DESEJADO] [TAMANHO DESEJADO];
+
+...
+
+III - VETOR COM TRES DIMENSOES
+
+int VARIAVEL [TAMANHO DESEJADO] [TAMANHO DESEJADO] [TAMANHO DESEJADO];
+
+...
+
+...
+
+...
+
+- PROTOTIPOS DAS FUNCOES
+
+void nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+void nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+void nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+...
+
+...
+
+...
+
+- FUNCAO PRINCIPAL
+
+int main (void)
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+
+
+     Funcao - I;
+
+     Funcao - II;
+
+     Funcao - N;
+
+};
+
+...
+
+...
+
+...
+
+- FUNCOES
+
+void nomedafuncao-I()
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+}
+
+...
+
+void nomedafuncao-II()
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+}
+
+...
+
+void nomedafuncao-N()
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+}
+
+...
+
+...
+
+...
+
+- SOFTWARE EXEMPLO
+
+A ordem das estruturas importa... Tudo que for usado depois precisa esta declaro antes
+
+...
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+#include <math.h>
+
+
+
+struct NomeDaEstrutura-I
+
+     {
+
+          TIPODAVARIAVEL VARIAVEL-I;
+
+          TIPODAVARIAVEL VARIAVEL-II;
+
+          TIPODAVARIAVEL VARIAVEL-N;
+
+     };
+
+...
+
+struct NomeDaEstrutura-II
+
+     {
+
+          TIPODAVARIAVEL VARIAVEL-I;
+
+          TIPODAVARIAVEL VARIAVEL-II;
+
+          TIPODAVARIAVEL VARIAVEL-N;
+
+     };
+
+...
+
+struct NomeDaEstrutura-N
+
+     {
+
+          TIPODAVARIAVEL VARIAVEL-I;
+
+          TIPODAVARIAVEL VARIAVEL-II;
+
+          TIPODAVARIAVEL VARIAVEL-N;
+
+     };
+
+
+
+- PROTOTIPOS DAS FUNCOES
+
+void nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+void nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+void nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+
+
+int main (void)
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+
+
+     - FUNCOES
+
+     void nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+};
+
+
+
+int nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+
+
+     - FUNCOES
+
+     void nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+};
+
+
+
+int nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+
+
+     - FUNCOES
+
+     void nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+};
+
+
+
+int nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+{
+
+     VARIAVEIS;
+
+     VARIAVEIS struct;
+
+
+
+     - ENTRADA E SAIDA DE DADOS
+
+     - ESTRUTURAS DE CONTROLE
+
+     - ESTRUTURAS DE REPETICAO - LACOS
+
+
+
+     - FUNCOES
+
+     void nomedafuncao-I (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-II (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+     void nomedafuncao-N (PARAMETRO-I, PARAMETRO-II, PARAMETRO-N);
+
+};
